@@ -5,9 +5,13 @@ Home: https://github.com/ramonhagenaars/typish
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/typish-feedstock/blob/master/LICENSE.txt)
 
 Summary: For more control over your types.
+
+Development: https://github.com/ramonhagenaars/typish
+
+Documentation: https://github.com/ramonhagenaars/typish
 
 For more control over your types.
 
