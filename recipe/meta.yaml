@@ -1,5 +1,5 @@
 {% set name = "typish" %}
-{% set version = "1.9.1" %}
+{% set version = "1.9.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ramonhagenaars/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d0f8e0dc2161fbe24fba50177e1beaa29d9b811d6374fdcc5af48dd4a5b135db
+  sha256: d0cd35aade6f974b2509771ac92aa1a5b4d9efe9c2c34127734539fd28e7145c
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
